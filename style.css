@@ -1,0 +1,74 @@
+body
+{
+    background-color: greenyellow;
+    user-select: none;
+}
+.font
+{
+    font-family: 'Mynerve', cursive;
+    font-size: 50px;
+}
+h1
+{
+    background-color: rgb(0, 76, 255);
+    color: black;
+    font-family: 'Gloria Hallelujah', cursive;
+    padding-left: 85px;
+    font-size: 70px;
+    margin-top: 0px;
+    border-radius: 20px;
+}
+#show_sketch
+{
+    float: right;
+    margin-top: 17px;
+    margin-right: 5px;
+    font-family: 'Merienda', cursive;
+    font-size: 20px;
+}
+p
+{
+    padding-top: 10px;
+    font-size: 20px;
+}
+.output
+{
+    text-align: left;
+    width: fit-content;
+}
+#label, #Confidence
+{
+    font-size: 30px;
+    font-family: 'Merienda', cursive;
+}
+.sketch
+{
+    font-size: 30px;
+    font-family: 'Patrick Hand', cursive;
+}
+.start
+{
+    font-size: 20px;
+}
+#score
+{
+    margin-left: -1150px;
+    width: 100%;
+    visibility: hidden;
+}
+#timer
+{
+    float: right;
+    margin-right: -560px;
+}
+#score, #timer
+{
+    font-family: 'Courgette', cursive;
+    font-size: 35px;
+}
+canvas
+{
+    border: 3px dashed black;
+    margin-top: 170px;
+    background-color: white;
+}
